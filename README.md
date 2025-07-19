@@ -40,7 +40,6 @@ Compare two faces — usually a selfie and a photo ID image — to confirm if th
 crop_face_2: Set to 1 to receive a cropped version of the detected face from image_2 in base64. Useful if you want to display the face preview in your UI or store it for logs. Set to 0 to disable.
 
 **Returns:**
- - match_confidence (0 to 100)
  - is_match (true/false based on threshold)
    
 <img width="1286" height="800" alt="venify_300148445" src="https://github.com/user-attachments/assets/9a712ae3-82bf-42f2-8d8a-c385abb6db4f" />
@@ -68,7 +67,6 @@ Analyzes the live selfie to detect signs of spoofing:
 
 **Returns:**
 - is_live_face: true or false
-- liveness_score: 0–100
 
 This feature is essential for detecting fraudulent account registrations and remote impersonation.
 
