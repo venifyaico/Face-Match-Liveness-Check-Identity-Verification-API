@@ -26,9 +26,9 @@ The Venify Face Match & Liveness Check API is built for security-first applicati
 This Postman collection includes ready-to-use requests:
 
 **How to Use**
- 1. Download [the collection JSON] or clone this repo
+ 1. Download [the collection JSON](./FaceMatch_VideoLiveness.postman_collection.json) or clone this repo
  2. Open Postman and click “Import”.
- 3. Select the file: Venify_Face_Blur_API.postman_collection.json
+ 3. Select the file: **FaceMatch_VideoLiveness.postman_collection.json**
  4. Add your RapidAPI key in the headers or use an environment variable.
  5. Start sending requests and previewing image responses.
 
