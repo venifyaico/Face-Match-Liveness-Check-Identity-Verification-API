@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "9d51e1c2-8dec-48a3-8fc1-bb959f1739ce",
+		"name": "Compare_Face_Liveness",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "compare_faces",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "face-match-liveness-check-identity-verification.p.rapidapi.com",
+						"type": "default"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image_1",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image_2",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "crop_face_2",
+							"value": "1",
+							"description": "Set to 1 to receive a cropped version of the detected face from image_2\nSet to 0 to disable.",
+							"type": "text"
+						},
+						{
+							"key": "image_1",
+							"value": "",
+							"description": "base64 format",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "image_2",
+							"value": "",
+							"description": "base64 format",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://face-match-liveness-check-identity-verification.p.rapidapi.com/api/v1/compare_faces",
+					"protocol": "https",
+					"host": [
+						"face-match-liveness-check-identity-verification",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"compare_faces"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "video_authentication",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "face-match-liveness-check-identity-verification.p.rapidapi.com",
+						"type": "default"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "video",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "video",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://face-match-liveness-check-identity-verification.p.rapidapi.com/api/v1/video_authentication",
+					"protocol": "https",
+					"host": [
+						"face-match-liveness-check-identity-verification",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"video_authentication"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
