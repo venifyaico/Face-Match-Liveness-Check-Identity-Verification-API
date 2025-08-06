@@ -1,7 +1,8 @@
 # Face-Match-Liveness-Check-Identity-Verification-API
 This API provides advanced face recognition and liveness detection to verify user identity with a high level of security and accuracy. Whether you are building a fintech application, a biometric login system, or a KYC-compliant onboarding flow, this tool enables real-time identity verification by comparing two facial images or video against a reference image. It supports dual-verification with match score and liveness status, built for fraud prevention in industries like crypto, banking, and e-commerce. Download or clone this repo to explore the API, test endpoints using the included Postman collection (JSON file), and integrate seamlessly into your product.
 
-<img width="1000" height="400" alt="venify_101010155" src="https://github.com/user-attachments/assets/69e916f4-57a4-4c48-bf16-b1177f8220ae" />
+
+![photo-2025-07-22-05-00-05 (1)](https://github.com/user-attachments/assets/75e1130a-4a2b-401f-bea1-877b579a6040)
 
 ## Why Choose This API?
 The Venify Face Match & Liveness Check API is built for security-first applications in industries like fintech, healthcare, e-learning, and on-demand services. Whether you're creating a banking login system, a digital identity check, or a secure sign-up flow, this API enables quick and precise biometric analysis.
@@ -42,7 +43,8 @@ crop_face_2: Set to 1 to receive a cropped version of the detected face from ima
 **Returns:**
  - is_match (true/false based on threshold)
    
-<img width="1286" height="800" alt="venify_300148445" src="https://github.com/user-attachments/assets/9a712ae3-82bf-42f2-8d8a-c385abb6db4f" />
+<img width="1280" height="490" alt="paper-attack" src="https://github.com/user-attachments/assets/30c66930-eeda-4cb5-8818-c7661fe6cea2" />
+
 
 <br/>
 <br/>
@@ -70,7 +72,8 @@ Analyzes the live selfie to detect signs of spoofing:
 
 This feature is essential for detecting fraudulent account registrations and remote impersonation.
 
-<img width="1886" height="706" alt="venify_054000126" src="https://github.com/user-attachments/assets/5f76c464-9fe5-4637-a1e7-07ce3955da3a" />
+
+<img width="1280" height="298" alt="paper-attack (1)" src="https://github.com/user-attachments/assets/ba7d1c38-6158-4fac-a06c-d5bc4c8008dd" />
 
 
 <br/>
