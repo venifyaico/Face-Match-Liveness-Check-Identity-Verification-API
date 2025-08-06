@@ -1,5 +1,7 @@
 # Face-Match-Liveness-Check-Identity-Verification-API
-This API provides advanced face recognition and liveness detection to verify user identity with a high level of security and accuracy. Whether you are building a fintech application, a biometric login system, or a KYC-compliant onboarding flow, this tool enables real-time identity verification by comparing two facial images or video against a reference image. It supports dual-verification with match score and liveness status, built for fraud prevention in industries like crypto, banking, and e-commerce. Download or clone this repo to explore the API, test endpoints using the included Postman collection (JSON file), and integrate seamlessly into your product.
+This API provides advanced face recognition and liveness detection to verify user identity with a high level of security and accuracy. Whether you are building a fintech application, a biometric login system, or a KYC-compliant onboarding flow, this tool enables real-time identity verification by comparing two facial images or video against a reference image. 
+
+Download or clone this repo to explore the API, test endpoints using the included Postman collection (JSON file), and integrate seamlessly into your product.
 
 
 ![photo-2025-07-22-05-00-05 (1)](https://github.com/user-attachments/assets/75e1130a-4a2b-401f-bea1-877b579a6040)
